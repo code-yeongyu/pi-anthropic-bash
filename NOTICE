@@ -1,0 +1,4 @@
+pi-anthropic-bash
+
+This package targets the pi coding agent extension API by Mario Zechner and ports the senpi-mono builtin
+anthropic-bash extension into a standalone pi extension package.
