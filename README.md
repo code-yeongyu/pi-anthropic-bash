@@ -46,14 +46,14 @@ After installation, restart pi or run `/reload` inside an interactive session.
 ## Development
 
 ```bash
-npm install
-npm test
-npm run typecheck
-npm run check
+bun install
+bun run test
+bun run typecheck
+bun run check
 pi -e ./src/index.ts
 ```
 
-The test suite uses vitest. TypeScript is strict, Node-only, and uses ESM imports with `.js` suffixes.
+The test suite uses vitest. TypeScript is strict, Node-only, and uses ESM imports with `.js` suffixes. npm consumers can use `npm ci` and `npm test`.
 
 ## Origin
 
